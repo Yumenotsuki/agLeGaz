@@ -1,0 +1,42 @@
+.header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+}
+
+.section {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+footer {
+    margin-top: 3rem;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 0.5rem; /* Place the button at the bottom of the page */
+    right: 1rem; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #f4a70c; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0.5rem; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+  }
+  
+  #topBtn:hover {
+    background-color: #47B9FF; /* Add a dark-grey background on hover */
+  }
